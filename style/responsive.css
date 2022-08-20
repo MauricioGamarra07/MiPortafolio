@@ -1,0 +1,111 @@
+.botonera{
+    float: right;
+    margin-right: 5%;
+}
+span{
+    color: white;
+    font-size: 36px;
+}
+#menu{
+    display: none;
+}
+@media (max-width: 900px){
+    .botonera{
+        float: none;
+        position: absolute;
+        top: 40px;
+        right: 120%;
+        width: 300px;
+        height: 500px;
+    }
+    #menu{
+        display: block;
+    }
+    .botonera ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--color);
+        z-index: 100;
+        top: 60px;
+        left: 30%;
+        width: 100%;
+        min-height: 380px;
+    }
+    .botonera a{
+        line-height: 30px;
+    }
+    .botonera-open{
+        right: 0%;
+    }
+    header{
+        display: inline-block;
+        width: 100%;
+    }
+    .cont-banner{
+        overflow: hidden;
+    }
+    span{
+        font-size: 36px;
+        color: white;
+        float: right;
+        transform: translateY(-60px);
+    }
+    header h1{
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    .botonera a:hover{
+        background-color: white;
+        color: black;
+        font-size: 24px;
+    }
+}
+@media (max-width: 300px) {
+    .cont-banner{
+        transform: translate(0px, 180px);
+    }
+    .cont-banner p{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .conocimientos{
+        display: block;
+    }
+    .portafolio{
+        display: block;
+        padding: 10px;
+    }
+    .paginasweb{
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .testimonios{
+        display: block;
+    }
+    .section-testi{
+        width: 280px;
+        padding-right: 15px;
+    }
+    .text-pallin{
+        padding-bottom: 30px;
+    }
+    .section-contacto{
+        display: block;
+        padding: 10px;
+        height: 600px;
+        background-attachment:inherit;
+    }
+    .text-contacto{
+        width: 280px;
+        height: 120px;
+        padding: 0px 10px;
+        margin-bottom: 10px;
+        transform: translate(0);
+    }
+    form{
+        width: 280px;
+    }
+}

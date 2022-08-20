@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primario: rgb(250, 148, 14);
+    --secundario: rgb(214, 96, 96);
+    --lila: rgb(150, 66, 199);
+}
+header{
+    position: relative;
+    background: linear-gradient(90deg,var(--primario), rgb(214, 96, 96) 90%);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.botonera li{
+    display: inline-block;
+}
+.botonera a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding: 37px 20px;
+}
+.botonera a:hover{
+    background-color: black;
+    color: white;
+}
+.botonera ul{
+    list-style: none;
+}
+.menu label{
+    font-size: 36px;
+    color: white;
+}
+.nombre{
+    color: white;
+    padding-top: 30px;
+    padding-left: 5%;
+}
+.nombre h1{
+    font-family: 'DynaPuff', cursive;
+}
+.redes{
+    z-index: 20;
+    transform: translateY(130px);
+    position: fixed;
+}
+.caja1 a{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+.caja2 a{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+.caja3 a{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 14px;
+    text-decoration: none;
+}
+.caja4 a{
+    color: white;
+    background: radial-gradient(circle at 15% 100%, orange, rgb(255,100,50), #d92e7f, #9b36b7, #515ecf);
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+#sobremi{
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: black;
+}
+p{
+    font-size: Arial;
+    font-size: 18px;
+}
+#sobremi hr{
+    margin: 20px 0;
+}
+.conocimientos{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+#html{
+    width: 185px;
+    height: 240px;
+    margin-right: 50px;
+}
+#css{
+    width: 185px;
+    height: 240px;
+}

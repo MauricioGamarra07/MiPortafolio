@@ -1,0 +1,69 @@
+/*Estilo del banner*/
+.banner{
+    position: relative;
+    background: url(../img/ola.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 90vh;
+}
+.cont-banner{
+    position: absolute;
+    color: white;
+    margin: 30px 420px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.overlay{
+    background: rgb(0, 0, 0, 0.1);
+    width: 100%;
+    min-height: 90vh;
+}
+#logo{
+    border-radius: 30%;
+}
+.cont-banner h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 56px;
+}
+.cont-banner p{
+    font-size: 18px;
+}
+/*Estilo del banner 2*/
+.banner2{
+    position: relative;
+    background: url(../img/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 20vh;
+}
+.cont-banner2{
+    color: white;
+    padding: 20px 15%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 40px;
+}
+.cont-banner2 p{
+    font-size: 24px;
+}
+.overlay2{
+    background: rgb(0, 0, 0,0.2);
+    width: 100%;
+    min-height: 20vh;
+}
+/*Estilo del banner 3*/
+.banner3{
+    position: relative;
+    background: rgb(250, 200, 0, 0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 90vh;
+}
+.cont-banner3{
+    padding: 20px;
+}

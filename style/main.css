@@ -1,0 +1,43 @@
+#subir{
+    display: none;
+    bottom: 0;
+    right: 0;
+    font-size: 26px;
+    position: fixed;
+    background: var(--primario);
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    z-index: 100;
+    border-radius: 50%;
+}
+#sobremi{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+}
+.subtitulo{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color:var(--primario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(30px, 50px);
+    border-radius: 15px;
+}
+.text-subtitulo{
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+    text-align: justify;
+    background-color: wheat;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

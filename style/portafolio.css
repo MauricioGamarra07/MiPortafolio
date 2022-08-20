@@ -1,0 +1,24 @@
+#portafolio{
+    padding: 20px;
+    text-align: center;
+}
+.portafolio{
+    width: 100%;
+    padding: 20px;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns:repeat(3, 350px);
+    grid-template-rows:repeat(2, 180px);
+    grid-gap: 30px 2%;
+}
+#pag01, #pag02, #pag03, #pag04, #pag05, #pag06{
+    border-radius: 15px;
+}
+.paginasweb{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+}
+#pag01:hover, #pag02:hover, #pag03:hover,#pag04:hover, #pag05:hover, #pag06:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+}
