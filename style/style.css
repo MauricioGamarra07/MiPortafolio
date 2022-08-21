@@ -94,19 +94,3 @@ p{
 #sobremi hr{
     margin: 20px 0;
 }
-.conocimientos{
-    width: 60%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-}
-#html{
-    width: 185px;
-    height: 240px;
-    margin-right: 50px;
-}
-#css{
-    width: 185px;
-    height: 240px;
-}
