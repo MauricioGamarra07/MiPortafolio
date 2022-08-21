@@ -6,29 +6,24 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    min-height: 90vh;
+    min-height: 85vh;
 }
 .cont-banner{
     position: absolute;
-    color: white;
-    margin: 30px 420px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 .overlay{
     background: rgb(0, 0, 0, 0.1);
     width: 100%;
-    min-height: 90vh;
+    min-height: 85vh;
 }
 #logo{
+    width: 500px;
+    height: 500px;
     border-radius: 30%;
-}
-.cont-banner h1{
-    text-align: center;
-    padding-bottom: 10px;
-    font-size: 56px;
-}
-.cont-banner p{
-    font-size: 18px;
 }
 /*Estilo del banner 2*/
 .banner2{

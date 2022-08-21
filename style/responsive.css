@@ -9,7 +9,7 @@ span{
 #menu{
     display: none;
 }
-@media (max-width: 900px){
+@media (max-width: 1340px){
     .botonera{
         float: none;
         position: absolute;
@@ -53,17 +53,39 @@ span{
         float: right;
         transform: translateY(-60px);
     }
-    header h1{
-        font-size: 24px;
-        margin-top: 15px;
-    }
     .botonera a:hover{
         background-color: white;
         color: black;
         font-size: 24px;
     }
 }
-@media (max-width: 300px) {
+@media (max-width: 800px){
+    #logo{
+        width: 400px;
+        height: 400px;
+    }
+    .cont-banner{
+        margin: 8% 0;
+        align-items: center;
+    }
+    #sobremi{
+        flex-direction: column;
+        width: 600px;
+        height: 600px;
+    }
+    .subtitulo{
+        margin-bottom: 10px;
+    }
+    .text-subtitulo{
+        width: 600px;
+    }
+}
+@media (max-width: 600px){
+    .subtitulo{
+        color: white;
+    }
+}
+@media (max-width: 360px) {
     .cont-banner{
         transform: translate(0px, 180px);
     }
@@ -107,5 +129,9 @@ span{
     }
     form{
         width: 280px;
+    }
+    #logo{
+        width: 300px;
+        height: 300px;
     }
 }
