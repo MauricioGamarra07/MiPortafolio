@@ -1,25 +1,31 @@
-
+.section-testimonios{
+    position: relative;
+    background: rgb(250, 200, 0, 0.8);
+    width: 100%;
+    min-height: 90vh;
+    padding: 30px 20px;
+}
+.div-testimonios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 #foto-pallin, #foto-benigno{
     width: 170px;
     border-radius: 50%;
     border: 7px solid var(--primario);
     margin-bottom: 20px;
 }
-.section-testi{
+.testimonio{
     width: 30%;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
 }
-.section-testi p{
+.testimonio p{
     text-align: justify;
 }
-.section-testi h3{
+.testimonio h3{
     text-align: center;
     padding-bottom: 15px;
-}
-.testimonios{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
 }

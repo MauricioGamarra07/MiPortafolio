@@ -1,24 +1,49 @@
-#portafolio{
-    padding: 20px;
-    text-align: center;
-}
-.portafolio{
+.proyectos{
+    position: relative;
+    background: url(../img/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
-    padding: 20px;
-    padding-left: 10%;
-    display: grid;
-    grid-template-columns:repeat(3, 350px);
-    grid-template-rows:repeat(2, 180px);
-    grid-gap: 30px 2%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
 }
-#pag01, #pag02, #pag03, #pag04, #pag05, #pag06{
+.paginaweb{
+    position: relative;
+    background-repeat: no-repeat;
     border-radius: 15px;
-}
-.paginasweb{
+    margin-bottom: 20px;
+    margin-right: 10px;
     width: 350px;
-    height: 180px;
-    border-radius: 15px;
+    min-height: 200px;
 }
-#pag01:hover, #pag02:hover, #pag03:hover,#pag04:hover, #pag05:hover, #pag06:hover{
-    box-shadow: 5px 5px 5px 5px gray;
+#pag01{
+    background: url(../img/pagina01.png);
+}
+#pag02{
+    background: url(../img/pagina02.png);
+}
+#pag03{
+    background: url(../img/pagina03.png);
+}
+#pag04{
+    background: url(../img/pagina04.png);
+}
+#pag05{
+    background: url(../img/pagina05.png);
+}
+#pag06{
+    background: url(../img/pagina06.png);
+}
+#pag01,#pag02,#pag03,#pag04,#pag05,#pag06{
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background 1s;
+}
+#pag01:hover,#pag02:hover,#pag03:hover,#pag04:hover,#pag05:hover,#pag06:hover{
+    background-size: 140% 150%;
 }

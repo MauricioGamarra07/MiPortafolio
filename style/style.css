@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     --primario: rgb(250, 148, 14);
-    --secundario: rgb(214, 96, 96);
+    --secundario: rgb(214, 89, 72);
     --lila: rgb(150, 66, 199);
 }
 header{
@@ -91,6 +91,31 @@ p{
     font-size: Arial;
     font-size: 18px;
 }
-#sobremi hr{
-    margin: 20px 0;
+/*Estilo del banner*/
+.banner{
+    position: relative;
+    background: url(../img/fondoAzulMarino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 85vh;
+}
+.cont-banner{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.overlay{
+    background: rgb(0, 0, 0, 0.1);
+    width: 100%;
+    min-height: 85vh;
+}
+#logo{
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
 }
