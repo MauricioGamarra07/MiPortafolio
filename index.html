@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,53 +17,43 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
     </style>
 </head>
+
 <body>
     <div id="inicio"></div>
     <header>
-        <div class="nombre">
-            <h1>Mauricio Gamarra</h1>
-        </div>
+        <div class="img-logo"></div>
         <!--Menú Hamburguesa-->
         <div class="menu" id="menu" onclick="llamar()">
             <span class="cerrar fa-solid fa-bars"></span>
         </div>
         <nav class="botonera" id="botonera">
             <ul>
-                <li><a href="#inicio" id="active">Inicio</a></li>
                 <li><a href="#sobremi">Sobre mi</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portafolio">Proyectos</a></li>
                 <li><a href="#testimonio">Testimonio</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
         </div>
     </header>
-    <div class="redes">
-        <div class="caja1">
-            <a class="fa-brands fa-facebook-square" href="https://www.facebook.com/" target="_blank"></a>
-        </div>
-        <div class="caja2">
-            <a class="fa-brands fa-linkedin" href="https://www.linkedin.com" target="_blank"></a>
-        </div>
-        <div class="caja3">
-            <a class="fa-solid fa-envelope" href="https://mail.google.com/" target="_blank"></a>
-        </div>
-        <div class="caja4">
-            <a class="fa-brands fa-instagram-square" href="https://www.instagram.com/" target="_blank"></a>
-        </div>
-    </div>
     <div class="banner">
         <div class="overlay">
-        <div class="cont-banner">
-            <img src="img/LOGOTIPO.png" alt="" id="logo">
-        </div>
+            <div class="cont-banner">
+                <div class="nombre">
+                    <h1 class="display-3" style="border-top: 3px solid white; border-bottom: 3px solid white;">Mauricio
+                        Gamarra</h1>
+                    <p class="text-center">Desarrollador Web</p>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -74,37 +65,45 @@
                 <h2>Sobre Mi</h2>
             </div>
             <div class="text-subtitulo">
-                <p>Soy una persona educada con buenos valores y principios. En el ámbito personal, me considero respetuoso, honesto y leal. Y en el ámbito profesional me considero, responsable, empeñoso y dedicado; que siempre busca dar lo mejor de sí mismo para 
+                <p>Soy una persona educada con buenos valores y principios. En el ámbito personal, me considero
+                    respetuoso, honesto y leal. Y en el ámbito profesional me considero, responsable, empeñoso y
+                    dedicado; que siempre busca dar lo mejor de sí mismo para
                     cumplir con sus metas y objetivos planteados.</p>
             </div>
         </section>
 
-        <h2 class="pt-5" id="habilidades">Skills</h2>
+        <h2 class="pt-5" id="skills">Skills</h2>
 
         <section class="section-habilidades">
             <p><b>HTML - Nivel Avanzado</b></p>
             <div class="progress">
-                <div class="progress-bar" style="background-color: orange; width: 95%;" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                <div class="progress-bar" style="background-color: orange; width: 95%;" role="progressbar"
+                    aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
             </div>
             <p><b>CSS - Nivel Avanzado</b></p>
             <div class="progress">
-                <div class="progress-bar css" role="progressbar" aria-label="Example with label" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                <div class="progress-bar css" role="progressbar" aria-label="Example with label" style="width: 95%;"
+                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
             </div>
             <p><b>SQL Server - Nivel Avanzado</b></p>
             <div class="progress">
-                <div class="progress-bar bg-danger" role="progressbar" aria-label="Example with label" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                <div class="progress-bar bg-danger" role="progressbar" aria-label="Example with label"
+                    style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
             </div>
-            <p><b>PYTHON  - Nivel Intermedio</b></p>
+            <p><b>PYTHON - Nivel Intermedio</b></p>
             <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                <div class="progress-bar bg-success" role="progressbar" aria-label="Example with label"
+                    style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
             </div>
             <p><b>Javascript - Nivel Basico</b></p>
             <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" aria-label="Example with label" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                <div class="progress-bar bg-warning" role="progressbar" aria-label="Example with label"
+                    style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
             </div>
             <p><b>React - Nivel Basico</b></p>
             <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 25%;"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
             </div>
         </section>
 
@@ -112,61 +111,130 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                    <i class='bx bx-window-alt icono'></i>
-                    <h5>Creación de Páginas Web</h5>
-                    <p>Utilizando colores representativos, fuentes originales y diseño creativo</p>
-                    <a href="#" class="boton">Click aquí</a>
+                    <div class="card">
+                        <div class="card-body">
+                            <i class='bx bx-window-alt icono'></i>
+                            <h5>Creación de Páginas Web</h5>
+                            <p>Utilizando colores representativos, fuentes originales y diseño creativo</p>
+                            <a href="#" class="boton">Click aquí</a>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                    <i class='bx bxs-detail icono'></i>
-                    <h5>Formularios funcionales</h5>
-                    <p>Creación de formularios conectados a base de datos MySql utilizando PHP</p>
-                    <a href="#" class="boton">Click aquí</a>
+                    <div class="card">
+                        <div class="card-body">
+                            <i class='bx bxs-detail icono'></i>
+                            <h5>Formularios funcionales</h5>
+                            <p>Creación de formularios conectados a base de datos MySql utilizando PHP</p>
+                            <a href="#" class="boton">Click aquí</a>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
         <div class="container pb-5">
             <div class="row">
                 <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                    <i class='bx bxl-css3 icono'></i>
-                    <h5>Animaciones y Transiciones</h5>
-                    <p>Animaciones y transiciones hechas por mí, a pedido del cliente</p>
-                    <a href="#" class="boton">Click aquí</a>
+                    <div class="card">
+                        <div class="card-body">
+                            <i class='bx bxl-css3 icono'></i>
+                            <h5>Animaciones y Transiciones</h5>
+                            <p>Animaciones y transiciones hechas por mí, a pedido del cliente</p>
+                            <a href="#" class="boton">Click aquí</a>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                    <i class='bx bx-devices icono'></i>
-                    <h5>Responsive Design Web</h5>
-                    <p>Adaptabilidad con los dispositivos móvil, tablet y laptop </p>
-                    <a href="#" class="boton">Click aquí</a>
+                    <div class="card">
+                        <div class="card-body">
+                            <i class='bx bx-devices icono'></i>
+                            <h5>Responsive Design Web</h5>
+                            <p>Adaptabilidad con los dispositivos móvil, tablet y laptop </p>
+                            <a href="#" class="boton">Click aquí</a>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
 
         <h2 id="portafolio">Portafolio</h2>
-        <section class="proyectos">
-            <div class="paginaweb" id="pag01"></div>
-            <div class="paginaweb" id="pag02"></div>
-            <div class="paginaweb" id="pag03"></div>
-            <div class="paginaweb" id="pag04"></div>
-            <div class="paginaweb" id="pag05"></div>
-            <div class="paginaweb" id="pag06"></div>
+        <section class="proyecto">
+            <div class="img-proyecto" id="pag01"></div>
+            <div class="info-proy">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum at voluptatibus quia error in
+                    blanditiis dolores nihil dolorem ipsam. Magnam officiis dolorem cupiditate repellendus nobis eius
+                    facilis, autem fugit.</p>
+                <a href="#">Visitar Sitio Web</a>
+            </div>
         </section>
+        <br>
+        <section class="proyecto">
+            <div class="info-proy">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum at voluptatibus quia error in
+                    blanditiis dolores nihil dolorem ipsam. Magnam officiis dolorem cupiditate repellendus nobis eius
+                    facilis, autem fugit.</p>
+                <a href="#">Visitar Sitio Web</a>
+            </div>
+            <div class="img-proyecto" id="pag02"></div>
+        </section>
+        <br>
+        <section class="proyecto">
+            <div class="img-proyecto" id="pag03"></div>
+            <div class="info-proy">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum at voluptatibus quia error in
+                    blanditiis dolores nihil dolorem ipsam. Magnam officiis dolorem cupiditate repellendus nobis eius
+                    facilis, autem fugit.</p>
+                <a href="#">Visitar Sitio Web</a>
+            </div>
+        </section>
+        <br>
+        <section class="proyecto">
+            <div class="info-proy">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum at voluptatibus quia error in
+                    blanditiis dolores nihil dolorem ipsam. Magnam officiis dolorem cupiditate repellendus nobis eius
+                    facilis, autem fugit.</p>
+                <a href="#">Visitar Sitio Web</a>
+            </div>
+            <div class="img-proyecto" id="pag04"></div>
+        </section>
+        <br>
+        <section class="proyecto">
+            <div class="img-proyecto" id="pag05"></div>
+            <div class="info-proy">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum at voluptatibus quia error in
+                    blanditiis dolores nihil dolorem ipsam. Magnam officiis dolorem cupiditate repellendus nobis eius
+                    facilis, autem fugit.</p>
+                <a href="#">Visitar Sitio Web</a>
+            </div>
+        </section>
+        <br>
+        <section class="proyecto">
+            <div class="info-proy">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum at voluptatibus quia error in
+                    blanditiis dolores nihil dolorem ipsam. Magnam officiis dolorem cupiditate repellendus nobis eius
+                    facilis, autem fugit.</p>
+                <a href="#">Visitar Sitio Web</a>
+            </div>
+            <div class="img-proyecto" id="pag06"></div>
+        </section>
+        <br>
+        <section class="proyecto">
+            <div class="img-proyecto" id="pag07"></div>
+            <div class="info-proy">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum at voluptatibus quia error in
+                    blanditiis dolores nihil dolorem ipsam. Magnam officiis dolorem cupiditate repellendus nobis eius
+                    facilis, autem fugit.</p>
+                <a href="#">Visitar Sitio Web</a>
+            </div>
+        </section>
+
         <br>
         <section class="section-testimonios">
             <h2 id="testimonio">Testimonios</h2>
@@ -174,12 +242,16 @@
                 <div class="testimonio">
                     <div align="center"><img src="img/pallin.jpg" alt="" id="foto-pallin"></div>
                     <h3>Miguel Pallin</h3>
-                    <p class="text-pallin">Es un alumno(a), con muchas ganas de aprender y que siemrpe esta atento en la clase y actualizandose con los videos de aprendizaje, llegara a ser un excelente desarrollador de paginas web.</p>
+                    <p class="text-pallin">Es un alumno(a), con muchas ganas de aprender y que siemrpe esta atento en la
+                        clase y actualizandose con los videos de aprendizaje, llegara a ser un excelente desarrollador
+                        de paginas web.</p>
                 </div>
                 <div class="testimonio">
                     <div align="center"><img src="img/benigno.jpg" alt="" id="foto-benigno"></div>
                     <h3>Benigno</h3>
-                    <p>Es un estudiante muy responsable, disruptivo con días ágiles para emprender proyectos de desarrollo de software web y aplicaciones de escritorio utilizando las buenas prácticas de análisis, 
+                    <p>Es un estudiante muy responsable, disruptivo con días ágiles para emprender proyectos de
+                        desarrollo de software web y aplicaciones de escritorio utilizando las buenas prácticas de
+                        análisis,
                         diseño y programación de sistemas de información para empresas de servicios y/o producción. </p>
                 </div>
             </div>
@@ -219,7 +291,10 @@
     <script src="script.js"></script>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

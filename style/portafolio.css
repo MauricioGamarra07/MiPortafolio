@@ -1,49 +1,60 @@
-.proyectos{
-    position: relative;
-    background: url(../img/banner2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    min-height: 80vh;
+.proyecto{
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    padding: 30px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
+    background-color: #ffcc00d2;
 }
-.paginaweb{
+.img-proyecto{
     position: relative;
     background-repeat: no-repeat;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    width: 350px;
-    min-height: 200px;
+    width: 600px;
+    height: 340px;
 }
+.info-proy{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
+.info-proy a{
+    text-decoration: none;
+    background-color: dodgerblue;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
 #pag01{
-    background: url(../img/pagina01.png);
+    background: url(../img/pagina07.png);
 }
 #pag02{
-    background: url(../img/pagina02.png);
-}
-#pag03{
-    background: url(../img/pagina03.png);
-}
-#pag04{
-    background: url(../img/pagina04.png);
-}
-#pag05{
     background: url(../img/pagina05.png);
 }
-#pag06{
+#pag03{
     background: url(../img/pagina06.png);
 }
-#pag01,#pag02,#pag03,#pag04,#pag05,#pag06{
+#pag04{
+    background: url(../img/pagina01.png);
+}
+#pag05{
+    background: url(../img/pagina02.png);
+}
+#pag06{
+    background: url(../img/pagina03.png);
+}
+#pag07{
+    background: url(../img/pagina04.png);
+}
+#pag01,#pag02,#pag03,#pag04,#pag05,#pag06,#pag07{
     background-size: 100% 100%;
     background-position: center;
     transition: background 1s;
 }
-#pag01:hover,#pag02:hover,#pag03:hover,#pag04:hover,#pag05:hover,#pag06:hover{
+#pag01:hover,#pag02:hover,#pag03:hover,#pag04:hover,#pag05:hover,#pag06:hover,#pag07:hover{
     background-size: 140% 150%;
 }
