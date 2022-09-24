@@ -13,8 +13,7 @@
 #foto-pallin, #foto-benigno{
     width: 170px;
     border-radius: 50%;
-    border-style: ridge;
-    border: 12px ridge var(--primario);
+    border: 12px solid var(--secundario);
     margin-bottom: 20px;
 }
 .testimonio{
@@ -22,7 +21,7 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
-    background-color: gold;
+    background-color: var(--cafe);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 5px black;

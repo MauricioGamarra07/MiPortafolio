@@ -7,8 +7,9 @@ form{
 form h3{
     color: black;
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
 }
 input{
     width: 100%;
@@ -23,7 +24,8 @@ textarea{
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color:teal;
+    color: rgba(0, 0, 0, 0.877);
+    margin-left: 10px;
 }
 #boton{
     background-color: black;
@@ -43,7 +45,7 @@ label{
     width: 400px;
     height: 300px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    background-color: var(--secundario);
+    background-color: var(--cafe);
     color: white;
     display: flex;
     justify-content: center;
@@ -72,5 +74,5 @@ footer p{
     margin-right: 20px;
 }
 .footer-redes a:hover{
-    color: var(--secundario);
+    color: var(--cafe);
 }

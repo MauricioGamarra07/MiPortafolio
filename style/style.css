@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --primario: #ff8800;
-    --color: rgb(250, 148, 14);
-    --secundario: rgb(214, 89, 72);
+    /* --primario: #ff8800; */
+    --secundario: #ffde59;
+    --primario: #fa940e;
+    --cafe: rgb(236, 162, 51); 
+    --marron: rgb(214, 89, 72);
     --lila: rgb(150, 66, 199);
 }
 header{
@@ -26,7 +28,7 @@ header{
     padding: 37px 20px;
 }
 .botonera a:hover{
-    background-color: black;
+    background-color: chocolate;
     color: white;
 }
 .botonera ul{
@@ -74,21 +76,17 @@ p{
 .cont-banner{
     width: 100%;
     position: absolute;
-    bottom: 20%;
+    top: 30%;
 }
 .overlay{
-    background: rgb(0, 0, 0, 0.1);
+    background: rgb(0, 0, 0, 0.2);
     width: 100%;
-    min-height: 50vh;
+    min-height: 85vh;
 }
 .img-logo{
-    background-image: url(../img/logo.png);
-    background-size: 108% 115%;
-    background-repeat: no-repeat;
-    width: 220px;
-    height: 140px;
-    transform: translateY(-30px);
-    margin-left: 50px;
+    width: 250px;
+    height: 100px;
+    margin-left: 60px;
 }
 .fa-arrow-down{
     background-color: white;

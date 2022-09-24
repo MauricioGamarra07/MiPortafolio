@@ -5,7 +5,7 @@
     padding: 30px;
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffcc00d2;
+    background-color: var(--secundario);
 }
 .img-proyecto{
     position: relative;
@@ -30,25 +30,25 @@
 }
 
 #pag01{
-    background: url(../img/pagina07.png);
+    background: url(../img/img-cevicheria.png);
 }
 #pag02{
-    background: url(../img/pagina05.png);
+    background: url(../img/img-cevicheria.png);
 }
 #pag03{
-    background: url(../img/pagina06.png);
+    background: url(../img/img-turismo.png);
 }
 #pag04{
-    background: url(../img/pagina01.png);
+    background: url(../img/img-dental.png);
 }
 #pag05{
-    background: url(../img/pagina02.png);
+    background: url(../img/img-nuevo-peru.png);
 }
 #pag06{
-    background: url(../img/pagina03.png);
+    background: url(../img/img-deportivo.png);
 }
 #pag07{
-    background: url(../img/pagina04.png);
+    background: url(../img/img-libros.png);
 }
 #pag01,#pag02,#pag03,#pag04,#pag05,#pag06,#pag07{
     background-size: 100% 100%;
