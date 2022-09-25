@@ -45,8 +45,8 @@ label{
     width: 400px;
     height: 300px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    background-color: var(--cafe);
-    color: white;
+    background-color: var(--secundario);
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -9,14 +9,24 @@ span{
 #menu{
     display: none;
 }
-@media (max-width: 1020px){
+@media (max-width: 1200px){
+    .proyecto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-proyecto{
+        width: 70%;
+    }
+}
+@media (max-width: 1160px){
     .botonera{
         float: none;
         position: relative;
         left: -100%;
     }
     .botonera a{
-        min-width: 550px;
+        min-width: 750px;
         height: 90px;
         display: flex;
         flex-direction: column;
@@ -69,6 +79,10 @@ span{
         height: 800px;
         align-items: center;
     }
+    .img-proyecto{
+        width: 85%;
+        height: 400px;
+    }
 }
 @media (max-width: 800px){
     #logo{
@@ -95,6 +109,13 @@ span{
     }
     .testimonio{
         width: 480px;
+    }
+    .botonera a{
+        min-width: 500px;
+    }
+    .img-proyecto{
+        width: 100%;
+        height: 300px;
     }
 }
 @media (max-width: 600px){
@@ -123,9 +144,6 @@ span{
     .img-logo{
         margin-left: 0;
     }
-    .cont-banner{
-        margin-top: 100px;
-    }
     .text-subtitulo{
         min-width: 320px;
     }
@@ -138,6 +156,10 @@ span{
     }
     .botonera a{
         min-width: 275px;
+    }
+    .nombre h1{
+        width: 180px;
+        height: 100px;
     }
 }
 @media (max-width: 360px) {
@@ -167,5 +189,9 @@ span{
     }
     form{
         width: 280px;
+    }
+    .img-proyecto{
+        width: 280px;
+        height: 200px;
     }
 }

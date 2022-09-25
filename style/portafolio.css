@@ -1,6 +1,6 @@
 .proyecto{
     width: 95%;
-    height: 400px;
+    min-height: 400px;
     margin: auto;
     padding: 30px;
     display: flex;
@@ -10,8 +10,8 @@
 .img-proyecto{
     position: relative;
     background-repeat: no-repeat;
-    width: 600px;
-    height: 340px;
+    width: 50%;
+    height: 360px;
 }
 .info-proy{
     width: 400px;
