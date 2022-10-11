@@ -1,5 +1,5 @@
 form{
-    background-color: var(--primario);
+    background-color: var(--gold);
     width: 500px;
     padding: 10px;
     float: right;
@@ -24,7 +24,8 @@ textarea{
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: rgb(7, 105, 105);
+    color: var(--negro);
+    font-weight: 600;
     margin-left: 10px;
 }
 #boton{
@@ -45,8 +46,8 @@ label{
     width: 400px;
     height: 300px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    background-color: var(--secundario);
-    color: black;
+    background-color: var(--marron);
+    color: var(--blanco);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,10 +55,11 @@ label{
     margin: 10% 5% 0 5%;
 }
 #contacto{
-    padding: 15px 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 footer{
-    background-color: black;
+    background-color: var(--negro);
     color: white;
     padding: 20px;
     text-align: center;
@@ -74,5 +76,5 @@ footer p{
     margin-right: 20px;
 }
 .footer-redes a:hover{
-    color: var(--cafe);
+    color: var(--amarillo);
 }

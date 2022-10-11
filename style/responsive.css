@@ -26,6 +26,7 @@ span{
         left: -100%;
     }
     .botonera a{
+        color: black;
         min-width: 750px;
         height: 90px;
         display: flex;
@@ -36,14 +37,14 @@ span{
     }
     .botonera ul{
         position: absolute;
-        background: rgb(139, 60, 4);
+        background: var(--amarillo);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         z-index: 200;
         width: 105.3%;
-        height: 85vh;
+        height: 86vh;
     }
     #menu{
         display: block;
@@ -63,8 +64,8 @@ span{
         color: white;
     }
     .botonera a:hover{
-        background-color: var(--cafe);
-        color: black;
+        background-color: var(--negro);
+        color: white;
     }
 }
 @media (max-width: 960px){

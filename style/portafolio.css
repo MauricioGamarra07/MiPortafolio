@@ -5,7 +5,7 @@
     padding: 30px;
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--secundario);
+    background-color: var(--amarillo);
 }
 .img-proyecto{
     position: relative;
