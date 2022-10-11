@@ -19,7 +19,7 @@ header{
     background-color: var(--marron);
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 110px;
 }
 .botonera li{
     display: inline-block;
@@ -76,7 +76,8 @@ p{
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    min-height: 85vh;
+    min-height: 90vh;
+    top: -10px;
 }
 .cont-banner{
     width: 100%;
@@ -86,7 +87,7 @@ p{
 .overlay{
     background: rgb(0, 0, 0, 0.2);
     width: 100%;
-    min-height: 85vh;
+    min-height: 90vh;
 }
 .img-logo{
     width: 250px;
