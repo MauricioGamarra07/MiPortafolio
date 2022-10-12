@@ -23,6 +23,9 @@ span{
         margin-bottom: 10px;
         width: 600px;
     }
+    .testimonio{
+        width: 40%;
+    }
 }
 @media (max-width: 1160px){
     .botonera{
@@ -108,6 +111,7 @@ span{
     }
     .testimonio{
         width: 480px;
+        margin-bottom: 20px;
     }
     .botonera a{
         min-width: 500px;
@@ -158,6 +162,9 @@ span{
     .img-logo{
         margin-left: 0;
     }
+    .testimonio{
+        width: 300px;
+    }
     .text-subtitulo{
         min-width: 320px;
     }
@@ -193,6 +200,9 @@ span{
     }
     .testimonios{
         display: block;
+    }
+    .testimonio{
+        width: 260px;
     }
     .section-testi{
         width: 280px;
