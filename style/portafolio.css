@@ -19,14 +19,46 @@
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
-.info-proy a{
+.info-proy p{
+    text-align: justify;
+}
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7{
     text-decoration: none;
-    background-color: dodgerblue;
     padding: 20px;
     border-radius: 10px;
     color: white;
+    transition: background .8s;
+}
+.btn1{
+    background-color: rgb(20, 216, 151);
+    color: black;
+} 
+.btn2{
+    background-color: gold;
+    color: black;
+} 
+.btn3{
+    background-color: rgb(9, 57, 105);
+} 
+.btn4{
+    background-color: darkturquoise;
+    color: black;
+} 
+.btn5{
+    background-color: coral;
+} 
+.btn6{
+    background-color: rgb(13, 13, 216);
+}
+.btn7{
+    background-color: black;
+}
+.btn1:hover, .btn2:hover, .btn3:hover, 
+.btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover{
+    background-color: white;
+    color: black;
 }
 
 #pag01{

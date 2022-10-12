@@ -18,6 +18,11 @@ span{
     .img-proyecto{
         width: 70%;
     }
+    .info-proy{
+        padding-top: 0;
+        margin-bottom: 10px;
+        width: 600px;
+    }
 }
 @media (max-width: 1160px){
     .botonera{
@@ -115,8 +120,11 @@ span{
         min-width: 500px;
     }
     .img-proyecto{
-        width: 100%;
+        width: 80%;
         height: 300px;
+    }
+    .info-proy{
+        width: 400px;
     }
 }
 @media (max-width: 600px){
@@ -136,6 +144,18 @@ span{
     }
     .img-logo{
         margin-left: 20px;
+    }
+    .img-proyecto{
+        width: 90%;
+    }
+}
+@media (max-width: 480px){
+    .info-proy{
+        width: 280px;
+    }
+    .img-proyecto{
+        width: 300px;
+        height: 220px;
     }
 }
 @media (max-width: 460px){
@@ -191,8 +211,11 @@ span{
     form{
         width: 280px;
     }
+    .info-proy{
+        width: 250px;
+    }
     .img-proyecto{
-        width: 280px;
+        width: 275px;
         height: 200px;
     }
 }
