@@ -47,6 +47,25 @@
     justify-content: center;
     align-items: center;
 }
+.habilidades{
+    background-color: var(--rosado);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.skills i{
+    color: var(--negro);
+    border-radius: 50%;
+    padding: 20px;
+    background-color: var(--amarillo);
+    margin-right: 10px;
+}
+.skills i:hover{
+    background-color: var(--gold);
+}
 .servicios{
     background-color: var(--negro);
 }
