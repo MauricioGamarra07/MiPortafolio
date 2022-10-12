@@ -91,20 +91,13 @@ span{
     }
 }
 @media (max-width: 800px){
-    #logo{
-        width: 400px;
-        height: 400px;
-    }
-    .cont-banner{
-        margin-top: 60px;
-    }
     #sobremi{
         flex-direction: column;
         margin-bottom: 30px;
     }
     .subtitulo{
         margin-bottom: 10px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .text-subtitulo{
         width: 600px;
