@@ -24,7 +24,7 @@
 .info-proy p{
     text-align: justify;
 }
-.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7{
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9{
     text-decoration: none;
     padding: 20px;
     border-radius: 10px;
@@ -32,61 +32,72 @@
     transition: background .8s;
 }
 .btn1{
-    background-color: rgb(20, 216, 151);
-    color: black;
+    background-color: rgb(139, 6, 57);
+    color: white;
 } 
 .btn2{
     background-color: gold;
     color: black;
 } 
 .btn3{
-    background-color: rgb(9, 57, 105);
+    background-color: rgb(20, 216, 151);
+    color: black;
 } 
 .btn4{
-    background-color: darkturquoise;
+    background-color: gold;
     color: black;
 } 
 .btn5{
-    background-color: coral;
+    background-color: rgb(9, 57, 105);
 } 
 .btn6{
+    background-color: darkturquoise;
+    color: black;
+} 
+.btn7{
     background-color: rgb(13, 13, 216);
 }
-.btn7{
+.btn8{
     background-color: black;
 }
-.btn1:hover, .btn2:hover, .btn3:hover, 
-.btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover{
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover,
+.btn5:hover, .btn6:hover, .btn7:hover,.btn8:hover{
     background-color: white;
     color: black;
 }
 
 #pag01{
-    background: url(../img/img-cevicheria.png);
+    background: url(../img/img-fcbarcelona.png);
 }
 #pag02{
-    background: url(../img/img-cevicheria.png);
+    background: url(../img/img-DBSuper.png);
 }
 #pag03{
-    background: url(../img/img-turismo.png);
+    background: url(../img/img-cevicheria.png);
 }
 #pag04{
-    background: url(../img/img-dental.png);
+    background: url(../img/img-ferreteria.png);
 }
 #pag05{
-    background: url(../img/img-nuevo-peru.png);
+    background: url(../img/img-turismo.png);
 }
 #pag06{
-    background: url(../img/img-deportivo.png);
+    background: url(../img/img-dental.png);
 }
 #pag07{
+    background: url(../img/img-deportivo.png);
+}
+#pag08{
     background: url(../img/img-libros.png);
 }
-#pag01,#pag02,#pag03,#pag04,#pag05,#pag06,#pag07{
+#pag01,#pag02,#pag03,#pag04,#pag05,#pag06,#pag07,#pag08{
     background-size: 100% 100%;
     background-position: center;
     transition: background 1s;
+    border-radius: 10px;
 }
-#pag01:hover,#pag02:hover,#pag03:hover,#pag04:hover,#pag05:hover,#pag06:hover,#pag07:hover{
+#pag01:hover,#pag02:hover,#pag03:hover,
+#pag04:hover,#pag05:hover,#pag06:hover,
+#pag07:hover,#pag08:hover{
     background-size: 140% 150%;
 }
