@@ -93,6 +93,11 @@ span{
         height: 400px;
     }
 }
+@media (max-width: 900px){
+    .text-subtitulo p{
+        margin-top: 10px;
+    }
+}
 @media (max-width: 800px){
     #sobremi{
         flex-direction: column;
