@@ -16,7 +16,7 @@
 }
 header{
     position: relative;
-    background-color: var(--marron);
+    background-color: var(--primario);
     display: flex;
     justify-content: space-between;
     height: 110px;
