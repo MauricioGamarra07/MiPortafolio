@@ -29,36 +29,42 @@
 <body>
     <div id="inicio"></div>
     <header>
-        <div class="img-logo">
-            <img src="img/logotipo.png" alt="">
-        </div>
-        <!--Menú Hamburguesa-->
-        <div class="menu" id="menu" onclick="llamar()">
-            <span class="cerrar fa-solid fa-bars"></span>
-        </div>
-        <nav class="botonera" id="botonera">
-            <ul>
-                <li><a href="#sobremi">Sobre mi</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#portafolio">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
-    <div class="banner">
+
         <div class="overlay">
-            <div class="cont-banner">
-                <div class="nombre">
-                    <h1 class="display-3" style="border-top: 3px solid white; border-bottom: 3px solid white;">Mauricio
-                        Gamarra</h1>
-                    <p class="text-center">Desarrollador Web Frontend Jr.</p>
-                    <i class="fa-solid fa-arrow-down"></i>
+            <div class="navbar">
+                <div class="img-logo">
+                    <img src="img/logotipo.png" alt="" id="logo">
+                </div>
+                <!--Menú Hamburguesa-->
+                <div class="menu" id="menu" onclick="llamar()">
+                    <span class="cerrar fa-solid fa-bars"></span>
+                </div>
+                <nav class="botonera" id="botonera">
+                    <ul>
+                        <li><a href="#sobremi">Sobre mi</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#portafolio">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="banner">
+                <div class="cont-banner">
+                    <div class="nombre">
+                        <h1 class="display-3" style="border-top: 3px solid white; border-bottom: 3px solid white;">
+                            Mauricio
+                            Gamarra</h1>
+                        <p class="text-center">Desarrollador Web Frontend Jr.</p>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
                 </div>
             </div>
+
         </div>
-    </div>
+
+    </header>
 
     <a href="#inicio" class="fa-solid fa-arrow-up" id="subir"></a>
 
@@ -68,7 +74,9 @@
                 <h2>Sobre Mi</h2>
             </div>
             <div class="text-subtitulo">
-                <p>Desarrollador Frontend, enfocado en la creación de sitios web estáticos y dinámicos. Me gusta realizar la lógica de programación. Me considero responsable, dedicado y con gran capacidad para adaptarme. Siempre doy lo mejor de mí para
+                <p>Desarrollador Frontend, enfocado en la creación de sitios web estáticos y dinámicos. Me gusta
+                    realizar la lógica de programación. Me considero responsable, dedicado y con gran capacidad para
+                    adaptarme. Siempre doy lo mejor de mí para
                     cumplir con mis metas y objetivos planteados.</p>
             </div>
         </section>
@@ -135,23 +143,31 @@
             <h2 class="pt-3 pb-3" id="servicios">Servicios</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <div class="card">
                             <div class="card-body">
                                 <i class='bx bx-window-alt icono'></i>
-                                <h5>Creación de Páginas Web</h5>
+                                <h5>Creación de Sitios Web</h5>
                                 <p>Utilizando colores representativos, fuentes originales y diseño creativo</p>
-                                <a href="#" class="boton">Click aquí</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class='bx bx-devices icono'></i>
+                                <h5>Responsive Design Web</h5>
+                                <p>Adaptabilidad con los dispositivos móvil, tablet y laptop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
                         <div class="card">
                             <div class="card-body">
                                 <i class='bx bxs-detail icono'></i>
                                 <h5>Formularios funcionales</h5>
                                 <p>Creación de formularios conectados a base de datos MySql utilizando PHP</p>
-                                <a href="#" class="boton">Click aquí</a>
                             </div>
                         </div>
                     </div>
@@ -159,23 +175,30 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class='bx bxs-detail icono'></i>
+                                <h5>Funcionalidad de Carrito de Compras</h5>
+                                <p>Creación de carrito de compras usando Javascript Vainilla</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
                         <div class="card">
                             <div class="card-body">
                                 <i class='bx bxl-css3 icono'></i>
                                 <h5>Animaciones y Transiciones</h5>
                                 <p>Animaciones y transiciones creativas hechos en cards, botones y contenedores</p>
-                                <a href="#" class="boton">Click aquí</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <div class="card">
                             <div class="card-body">
-                                <i class='bx bx-devices icono'></i>
-                                <h5>Responsive Design Web</h5>
-                                <p>Adaptabilidad con los dispositivos móvil, tablet y laptop</p>
-                                <a href="#" class="boton">Click aquí</a>
+                                <i class='bx bxs-detail icono'></i>
+                                <h5>Búsqueda por Parámetro</h5>
+                                <p>Implementación de la lógica de programación para búsquedas por parámetro</p>
                             </div>
                         </div>
                     </div>
@@ -184,13 +207,16 @@
         </div>
 
         <h2 id="portafolio" class="pt-5 mb-4">Portafolio</h2>
-        
+
         <section class="proyecto">
             <div class="info-proy">
                 <h3>FC Barcelona</h3>
-                <p>Sitio Web referente al FC Barcelona. Allí podemos observar información del club como: su estadio, museo, trofeos y leyendas. Así como también de su plantilla actual, y su posición en la liga española.
+                <p>Sitio Web referente al FC Barcelona. Allí podemos observar información del club como: su estadio,
+                    museo, trofeos y leyendas. Así como también de su plantilla actual, y su posición en la liga
+                    española.
                 </p>
-                <a href="https://mauriciogamarra07.github.io/React-FCBarcelona/" target="_blank" class="btn1">Visitar Sitio Web</a>
+                <a href="https://mauriciogamarra07.github.io/React-FCBarcelona/" target="_blank" class="btn1">Visitar
+                    Sitio Web</a>
             </div>
             <div class="img-proyecto" id="pag01"></div>
         </section>
@@ -198,9 +224,12 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Dragon Ball Super</h3>
-                <p>Página web con referencia a la serie Dragon Ball Super. Que fue realizada consumiendo la API de Dragon Ball Super. En la cual podemos ver cards de los personajes y realizar búsquedas por medio del nombre o el universo.
+                <p>Página web con referencia a la serie Dragon Ball Super. Que fue realizada consumiendo la API de
+                    Dragon Ball Super. En la cual podemos ver cards de los personajes y realizar búsquedas por medio del
+                    nombre o el universo.
                 </p>
-                <a href="https://mauriciogamarra07.github.io/Consumiendo-API-DBSuper/" target="_blank" class="btn2">Visitar Sitio Web</a>
+                <a href="https://mauriciogamarra07.github.io/Consumiendo-API-DBSuper/" target="_blank"
+                    class="btn2">Visitar Sitio Web</a>
             </div>
             <div class="img-proyecto" id="pag02"></div>
         </section>
@@ -208,10 +237,13 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Cevichería Pescadito</h3>
-                <p>Sitio Web sobre una Cevichería que contiene información acerca de la cevichería, asi mismo su misión y visión.
-                    Además se puede apreciar la carta de platillos que enlaza a un carrito de compras, galería de platillos y una seccion de contactos. 
+                <p>Sitio Web sobre una Cevichería que contiene información acerca de la cevichería, asi mismo su misión
+                    y visión.
+                    Además se puede apreciar la carta de platillos que enlaza a un carrito de compras, galería de
+                    platillos y una seccion de contactos.
                 </p>
-                <a href="https://mauriciogamarra07.github.io/Sitio-Cevicheria/" target="_blank" class="btn3">Visitar Sitio Web</a>
+                <a href="https://mauriciogamarra07.github.io/Sitio-Cevicheria/" target="_blank" class="btn3">Visitar
+                    Sitio Web</a>
             </div>
             <div class="img-proyecto" id="pag03"></div>
         </section>
@@ -219,10 +251,12 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Ferretería Obregón</h3>
-                <p>Pagina hecha sobre una ferretería, la cual contiene un carrito de compras que se le pueden agregar los artículos
+                <p>Pagina hecha sobre una ferretería, la cual contiene un carrito de compras que se le pueden agregar
+                    los artículos
                     mostrados. Por otra parte, se muestra el footer con el horario de atención y el contacto.
                 </p>
-                <a href="https://mauriciogamarra07.github.io/Page-Ferreter-a/" target="_blank" class="btn4">Visitar Sitio Web</a>
+                <a href="https://mauriciogamarra07.github.io/Page-Ferreter-a/" target="_blank" class="btn4">Visitar
+                    Sitio Web</a>
             </div>
             <div class="img-proyecto" id="pag04"></div>
         </section>
@@ -230,10 +264,13 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Turístico Aurili</h3>
-                <p>Sitio Web sobre Servicios Turísticos que cuenta con páginas donde se muestran las promociones, los traslados, la guía,
-                    información y precio de los diferentes Tours, una sección de galería y por último una sección de contacto.
+                <p>Sitio Web sobre Servicios Turísticos que cuenta con páginas donde se muestran las promociones, los
+                    traslados, la guía,
+                    información y precio de los diferentes Tours, una sección de galería y por último una sección de
+                    contacto.
                 </p>
-                <a href="https://mauriciogamarra07.github.io/Viajes-Turisticos/" target="_blank" class="btn5">Visitar Sitio Web</a>
+                <a href="https://mauriciogamarra07.github.io/Viajes-Turisticos/" target="_blank" class="btn5">Visitar
+                    Sitio Web</a>
             </div>
             <div class="img-proyecto" id="pag05"></div>
         </section>
@@ -241,9 +278,11 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Dental Centro</h3>
-                <p>Página web de una clínica dental, que contiene información sobre ellos, sección de contacto, ubicación de la clínica y 
+                <p>Página web de una clínica dental, que contiene información sobre ellos, sección de contacto,
+                    ubicación de la clínica y
                     un login para permitir el registro de nuestros clientes</p>
-                <a href="https://mauriciogamarra07.github.io/Clinica-Dental/" target="_blank" class="btn6">Visitar Sitio Web</a>
+                <a href="https://mauriciogamarra07.github.io/Clinica-Dental/" target="_blank" class="btn6">Visitar Sitio
+                    Web</a>
             </div>
             <div class="img-proyecto" id="pag06"></div>
         </section>
@@ -251,9 +290,12 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Deportivo</h3>
-                <p>Página web sobre una empresa que hace todo tipo de instalaiones en clubes deportivos, en el cual podemos 
-                    observar información acerca de ellos, galería de los proyectos en los que han trabajado y una sección de contacto.</p>
-                <a href="https://mauriciogamarra07.github.io/Depor-tivo/" target="_blank" class="btn7">Visitar Sitio Web</a>
+                <p>Página web sobre una empresa que hace todo tipo de instalaiones en clubes deportivos, en el cual
+                    podemos
+                    observar información acerca de ellos, galería de los proyectos en los que han trabajado y una
+                    sección de contacto.</p>
+                <a href="https://mauriciogamarra07.github.io/Depor-tivo/" target="_blank" class="btn7">Visitar Sitio
+                    Web</a>
             </div>
             <div class="img-proyecto" id="pag07"></div>
         </section>
@@ -261,8 +303,10 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Libros</h3>
-                <p>Uno de mis primeras páginas web, contiene una section para colocar tu nombre y email, cards, banner con información del personal más importante y una sección de contacto</p>
-                <a href="https://mauriciogamarra07.github.io/Libreria/" target="_blank" class="btn8">Visitar Sitio Web</a>
+                <p>Uno de mis primeras páginas web, contiene una section para colocar tu nombre y email, cards, banner
+                    con información del personal más importante y una sección de contacto</p>
+                <a href="https://mauriciogamarra07.github.io/Libreria/" target="_blank" class="btn8">Visitar Sitio
+                    Web</a>
             </div>
             <div class="img-proyecto" id="pag08"></div>
         </section>

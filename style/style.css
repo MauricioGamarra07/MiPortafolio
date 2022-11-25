@@ -16,10 +16,28 @@
 }
 header{
     position: relative;
-    background-color: var(--primario);
+    background: url(../img/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+.overlay{
+    background: rgb(0, 0, 0, 0.3);
+    width: 100%;
+    min-height: 100vh;
+}
+.navbar{
+    position: relative;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     height: 110px;
+}
+#logo{
+    border-radius: 50%;
+    margin-left: 50%;
 }
 .botonera li{
     display: inline-block;
@@ -69,25 +87,10 @@ p{
     font-size: 18px;
 }
 /*Estilo del banner*/
-.banner{
-    position: relative;
-    background: url(../img/banner1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    min-height: 90vh;
-    top: -10px;
-}
 .cont-banner{
     width: 100%;
     position: absolute;
-    top: 40%;
-}
-.overlay{
-    background: rgb(0, 0, 0, 0.2);
-    width: 100%;
-    min-height: 90vh;
+    top: 45%;
 }
 .img-logo{
     width: 250px;

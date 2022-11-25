@@ -100,6 +100,7 @@
 .icono{
     font-size: 48px;
     margin-bottom: 10px;
+    color: var(--primario);
 }
 .section-habilidades{
     width: 70%;
