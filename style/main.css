@@ -78,7 +78,15 @@
 #servicios{
     color: white;
 }
+.cont-servicios{
+    width: 96%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
+}
 .card{
+    margin-right: 10px;
     margin-bottom: 10px;
 }
 .card-body{
