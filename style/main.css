@@ -26,7 +26,7 @@
     min-width: 30vh;
     height: 30%;
     min-height: 15vh;
-    background-color:var(--marron);
+    background-color:var(--primario);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,16 +40,23 @@
     min-height: 50vh;
     padding: 0 30px;
     text-align: justify;
-    background-color: var(--rosado);
+    background-color: var(--amarillo);
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#skills{
+    color: var(--amarillo);
+}
 .habilidades{
-    background-color: var(--rosado);
+    background-color: var(--tercero);
+    color: white;
     padding: 30px;
     margin-bottom: 20px;
+}
+.habilidades ul li{
+    list-style: circle;
 }
 .hab-blandas{
     display: flex;

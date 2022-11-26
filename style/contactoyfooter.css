@@ -24,8 +24,8 @@ textarea{
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: var(--negro);
-    font-weight: 600;
+    color: #256607;
+    font-weight: 800;
     margin-left: 10px;
 }
 #boton{
@@ -48,8 +48,8 @@ label{
     width: 400px;
     height: 300px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    background-color: var(--marron);
-    color: var(--blanco);
+    background-color: var(--primario);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ label{
     margin-bottom: 20px;
 }
 footer{
-    background-color: var(--negro);
+    background-color: var(--tercero);
     color: white;
     padding: 20px;
     text-align: center;
