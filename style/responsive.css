@@ -1,6 +1,6 @@
 .botonera{
-    float: right;
     margin-right: 5%;
+    float: right;
 }
 span{
     color: white;
@@ -8,6 +8,7 @@ span{
 }
 #menu{
     display: none;
+    float: left;
 }
 @media (max-width: 1200px){
     .proyecto{
@@ -27,7 +28,32 @@ span{
         width: 40%;
     }
 }
-@media (max-width: 1160px){
+@media (max-width: 1100px){
+    .img-logo{
+        width: 150px;
+    }
+    #logo{
+        margin-left: 0%;
+    }
+}
+@media (max-width: 960px){
+    .text-contacto{
+        margin: 0;
+        width: 350px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .section-contacto{
+        flex-direction: column;
+        height: 800px;
+        align-items: center;
+    }
+    .img-proyecto{
+        width: 85%;
+        height: 400px;
+    }
+}
+@media (max-width: 900px){
     .botonera{
         float: none;
         position: relative;
@@ -52,18 +78,19 @@ span{
         align-items: center;
         z-index: 200;
         width: 105.3%;
-        height: 86vh;
+        top: 120px;
+        height: 82vh;
     }
     #menu{
         display: block;
         float: right;
-        transform: translateY(-70px);
-        margin-right: 30px;
+        margin-top: 30px;
+        margin-right: 60px;
     }
     .botonera-open{
         left: 0%;
     }
-    header{
+    .navbar{
         display: inline-block;
         width: 100%;
     }
@@ -75,25 +102,6 @@ span{
         background-color: var(--negro);
         color: white;
     }
-}
-@media (max-width: 960px){
-    .text-contacto{
-        margin: 0;
-        width: 350px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .section-contacto{
-        flex-direction: column;
-        height: 800px;
-        align-items: center;
-    }
-    .img-proyecto{
-        width: 85%;
-        height: 400px;
-    }
-}
-@media (max-width: 900px){
     .text-subtitulo p{
         margin-top: 10px;
     }
@@ -162,10 +170,10 @@ span{
 }
 @media (max-width: 460px){
     #menu{
-        margin-right: 20px;
+        margin-right: 30px;
     }
     .img-logo{
-        margin-left: 0;
+        margin-left: 30px;
     }
     .testimonio{
         width: 300px;
