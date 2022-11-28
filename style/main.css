@@ -70,14 +70,28 @@
 }
 .skills i{
     color: var(--negro);
-    border-radius: 50%;
+    width: 90px;
+    height: 90px;
     padding: 20px;
     background-color: var(--amarillo);
-    margin-right: 10px;
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 .skills i:hover{
     background-color: var(--gold);
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-right: 10px;
+}
+.icon h4{
+    text-align: center;
+    font-size: 22px;
+    color: var(--amarillo);
 }
 .servicios{
     background-color: var(--negro);
