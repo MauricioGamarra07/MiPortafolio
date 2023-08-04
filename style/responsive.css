@@ -1,5 +1,5 @@
 .botonera{
-    margin-right: 5%;
+    margin-right: 6%;
     float: right;
 }
 span{
@@ -77,9 +77,9 @@ span{
         justify-content: center;
         align-items: center;
         z-index: 200;
-        width: 105.3%;
-        top: 120px;
-        height: 82vh;
+        width: 106.4%;
+        top: 100px;
+        height: 84vh;
     }
     #menu{
         display: block;

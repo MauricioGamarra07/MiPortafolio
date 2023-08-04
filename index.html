@@ -31,41 +31,39 @@
     <header>
 
         <div class="overlay">
-            <div class="img-logo">
-                <img src="img/logotipo.png" alt="" id="logo">
+            <div class="cont-header">
+                <div class="img-logo">
+                    <img src="img/logotipo.png" alt="" id="logo">
+                </div>
+                <!--Menú Hamburguesa-->
+                <div class="menu" id="menu" onclick="llamar()">
+                    <span class="cerrar fa-solid fa-bars"></span>
+                </div>
+                <nav class="botonera" id="botonera">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobremi">Sobre mi</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
-            <!--Menú Hamburguesa-->
-            <div class="menu" id="menu" onclick="llamar()">
-                <span class="cerrar fa-solid fa-bars"></span>
-            </div>
-            <nav class="botonera" id="botonera">
-                <ul>
-                    <li><a href="#sobremi">Sobre mi</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
 
-        <div class="banner">
-            <div class="cont-banner">
-                <div class="nombre">
-                    <h1 class="display-3" style="border-top: 3px solid white; border-bottom: 3px solid white;">
-                        Mauricio
-                        Gamarra</h1>
-                    <p class="text-center">Desarrollador Web Frontend Jr. 💻</p>
-                    <i class="fa-solid fa-arrow-down"></i>
+            <div class="banner">
+                <div class="cont-banner">
+                    <div class="nombre">
+                        <h1 class="display-3" style="border-top: 3px solid white; border-bottom: 3px solid white;">
+                            Mauricio
+                            Gamarra</h1>
+                        <p class="text-center">Desarrollador Web Frontend 💻</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
         </div>
 
     </header>
-
-    <a href="#inicio" class="fa-solid fa-arrow-up" id="subir"></a>
 
     <main>
         <section id="sobremi">
@@ -161,73 +159,6 @@
             </section>
         </div>
 
-        <div class="servicios p-4">
-            <h2 class="pt-3 pb-3" id="servicios">Servicios</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class='bx bx-window-alt icono'></i>
-                                <h5>Creación de Sitios Web</h5>
-                                <p>Utilizando colores representativos, fuentes originales y diseño creativo</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class='bx bx-devices icono'></i>
-                                <h5>Responsive Design Web</h5>
-                                <p>Adaptabilidad con los dispositivos móvil, tablet y laptop</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class='bx bxs-detail icono'></i>
-                                <h5>Formularios funcionales</h5>
-                                <p>Creación de formularios conectados a base de datos MySql utilizando PHP</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class='bx bxs-detail icono'></i>
-                                <h5>Funcionalidad de Carrito de Compras</h5>
-                                <p>Creación de carrito de compras usando Javascript Vainilla</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class='bx bxl-css3 icono'></i>
-                                <h5>Animaciones y Transiciones</h5>
-                                <p>Animaciones y transiciones creativas hechos en cards, botones y contenedores</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class='bx bxs-detail icono'></i>
-                                <h5>Búsqueda por Parámetro</h5>
-                                <p>Implementación de la lógica de programación para búsquedas por parámetro</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <h2 id="proyectos" class="pt-5 mb-4">Proyectos</h2>
 
         <section class="proyecto">
@@ -246,7 +177,8 @@
         <section class="proyecto">
             <div class="info-proy">
                 <h3>Chatbot</h3>
-                <p>Página web que contiene un chatbot con diseño similar al chat de whatsapp. El bot presenta mensajes con diferentes opciones para que el usuario escoja por medio de radiobuttons.
+                <p>Página web que contiene un chatbot con diseño similar al chat de whatsapp. El bot presenta mensajes
+                    con diferentes opciones para que el usuario escoja por medio de radiobuttons.
                 </p>
                 <a href="https://mauriciogamarra07.github.io/Chat-Bot/" target="_blank" class="btn9">Visitar
                     Sitio Web</a>

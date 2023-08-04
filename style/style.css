@@ -26,23 +26,30 @@ header{
     width: 100%;
     min-height: 100vh;
 }
-.navbar{
+.cont-header{
     position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+}
+.efecto{
+    transition: background 1s;
+    background: var(--negro);
+    position: fixed;
+}
+.img-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110px;
-}
-.img-logo{
-    width: 300px;
-    height: 110px;
+    width: 200px;
+    height: 80px;
     float: left;
-    margin-left: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
 }
 #logo{
+    width: 60%;
     border-radius: 50%;
-    margin-left: 50%;
-    padding-top: 10px;
 }
 .botonera li{
     display: inline-block;
@@ -53,7 +60,8 @@ header{
     font-size: 20px;
     color: white;
     display: block;
-    padding: 37px 20px;
+    margin: 5px 0;
+    padding: 30px 20px;
 }
 .botonera a:hover{
     background-color: var(--amarillo);

@@ -6,15 +6,16 @@ function llamar(){
     menu.querySelector('.menu .cerrar').classList.toggle("fa-times");
 }
 
-//Botón para subir al Inicio
-window.addEventListener("scroll",Subir)
-function Subir(){
-    let subir=document.getElementById("subir");
-    let posy=window.pageYOffset;
-    if (posy>100){
-        subir.style.display="block";
+//Header
+window.addEventListener("scroll",Mover)
+function Mover(){
+    let header=document.querySelector(".cont-header");
+    let pos = window.scrollY;
+    /* console.log(pos); */
+    if (pos>600){
+        header.classList.add("efecto");
     }
     else{
-        subir.style.display="none";
+        header.classList.remove("efecto");
     }
 }
