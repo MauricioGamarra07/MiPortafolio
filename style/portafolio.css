@@ -74,28 +74,25 @@
     background: url(../img/img-fcbarcelona.png);
 }
 #pag02{
-    background: url(../img/img-DBSuper.png);
-}
-#pag03{
-    background: url(../img/img-cevicheria.png);
+    background: url(../img/img-chatbot.png);
 }
 #pag04{
-    background: url(../img/img-ferreteria.png);
+    background: url(../img/img-cevicheria.png);
 }
 #pag05{
-    background: url(../img/img-turismo.png);
+    background: url(../img/img-ferreteria.png);
 }
 #pag06{
-    background: url(../img/img-dental.png);
+    background: url(../img/img-turismo.png);
 }
 #pag07{
-    background: url(../img/img-deportivo.png);
+    background: url(../img/img-lista-tareas.png);
 }
 #pag08{
-    background: url(../img/img-libros.png);
+    background: url(../img/img-reloj.png);
 }
 #pag09{
-    background: url(../img/img-chatbot.png);
+    background: url(../img/img-calculadora.png);
 }
 #pag01,#pag02,#pag03,#pag04,#pag05,#pag06,#pag07,#pag08,#pag09{
     background-size: 100% 100%;
