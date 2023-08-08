@@ -24,7 +24,7 @@
 .info-proy p{
     text-align: justify;
 }
-.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9{
+.btn1, .btnL, .btn3, .btn4, .btnRe, .btnC, .btnRi, .btnP, .btn9{
     text-decoration: none;
     padding: 20px;
     border-radius: 10px;
@@ -35,8 +35,8 @@
     background-color: rgb(139, 6, 57);
     color: white;
 } 
-.btn2{
-    background-color: gold;
+.btnL{
+    background-color: aquamarine;
     color: black;
 } 
 .btn3{
@@ -47,29 +47,34 @@
     background-color: gold;
     color: black;
 } 
-.btn5{
-    background-color: rgb(9, 57, 105);
+.btnRe{
+    background-color: peru;
 } 
-.btn6{
-    background-color: darkturquoise;
-    color: black;
+.btnC{
+    background-color: peru;
 } 
-.btn7{
-    background-color: rgb(13, 13, 216);
+.btnRi{
+    background-color: orangered;
 }
-.btn8{
-    background-color: black;
+.btnP{
+    background-color: rgb(28, 161, 121);
 }
 .btn9{
     background-color: rgb(68, 204, 41);
 }
-.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover,
-.btn5:hover, .btn6:hover, .btn7:hover,.btn8:hover,
+.btn1:hover, .btnL:hover, .btn3:hover, .btn4:hover,
+.btnRe:hover, .btnC:hover, .btnRi:hover,.btnP:hover,
 .btn9:hover{
     background-color: white;
     color: black;
 }
 
+#pagRick{
+    background: url(../img/img-rickandmorty.png);
+}
+#pagPoke{
+    background: url(../img/img-pokemon.png);
+}
 #pag01{
     background: url(../img/img-fcbarcelona.png);
 }
@@ -82,9 +87,6 @@
 #pag05{
     background: url(../img/img-ferreteria.png);
 }
-#pag06{
-    background: url(../img/img-turismo.png);
-}
 #pag07{
     background: url(../img/img-lista-tareas.png);
 }
@@ -94,14 +96,14 @@
 #pag09{
     background: url(../img/img-calculadora.png);
 }
-#pag01,#pag02,#pag03,#pag04,#pag05,#pag06,#pag07,#pag08,#pag09{
+#pagRick,#pagPoke,#pag01,#pag02,#pag03,#pag04,#pag05,#pag06,#pag07,#pag08,#pag09{
     background-size: 100% 100%;
     background-position: center;
     transition: background 1s;
     border-radius: 10px;
 }
-#pag01:hover,#pag02:hover,#pag03:hover,
-#pag04:hover,#pag05:hover,#pag06:hover,
+#pagRick:hover,#pagPoke:hover,#pag01:hover,#pag02:hover,
+#pag03:hover,#pag04:hover,#pag05:hover,#pag06:hover,
 #pag07:hover,#pag08:hover,#pag09:hover{
     background-size: 140% 150%;
 }
